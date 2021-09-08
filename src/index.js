@@ -61,7 +61,7 @@ function openModal(e) {
   basicLightbox
     .create(
       `
-    <img src="${e.target.dataset.scr}" width="800" height="600">
+    <img src="${e.target.dataset.src}" width="800" height="600">
 `,
     )
     .show();
