@@ -1,0 +1,47 @@
+.gallery {
+  margin-left: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  list-style: none;
+  padding-left: 0;
+}
+
+.container {
+  width: 1200px;
+}
+
+.stats {
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  display: block;
+  max-width: 250px;
+  max-height: 160px;
+}
+
+.material-icons {
+  font-size: 12px;
+}
+
+.search-form {
+  width: 300px;
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  margin: 100px auto 50px;
+
+  border-radius: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.137);
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.load-more {
+  margin: 50px 0 0 25px;
+}
